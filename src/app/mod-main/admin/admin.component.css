@@ -1,0 +1,68 @@
+.applist{
+    width: 1110px;
+    padding: 50px;
+    border-radius: 3px;
+    margin: 80pxpx auto;
+    box-shadow: 10px solid black;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 4px 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.footerpart{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.footerimg{
+    margin-top: 100px;
+}
+
+.navnames{
+    color: #FF8C00;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+.apphead{
+    padding: 50px;
+}
+
+.lblname{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+}
+
+.listitems{
+    width: 900px;
+    padding: 100px 0px 50px 0px;
+    margin: 0px auto;
+}
+
+.itemdet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headeradmin{
+    display: flex;
+}
+
+.lsthead{
+    font-weight: bold;
+    color: orange;
+    margin-left: 10px;
+}
+
+.relrec{
+    border: none;
+    background-color: transparent;
+    color: skyblue;
+}
+
+
+

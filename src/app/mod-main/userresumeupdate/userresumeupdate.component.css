@@ -1,0 +1,53 @@
+.formsec{
+    /* text-align: center; */
+    width: 1000px;
+    padding: 50px;
+    border-radius: 3px;
+    margin: 50px auto;
+    box-shadow: 10px solid black;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 4px 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.fillresume{
+    background-color: rgb(232, 235, 237);
+    padding-bottom: 50px;
+}
+
+.formhead{
+    padding: 50px 50px 20px 80px;
+    color: #FF8C00;
+    font-size: 40px;
+}
+
+.lblname{
+    color: #FF8C00;
+}
+
+.btnname{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.footerpart{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.footerimg{
+    margin-top: 100px;
+}
+
+.navnames{
+    color: #FF8C00;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+

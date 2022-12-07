@@ -1,0 +1,188 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="https://rntbci.in">
+            <img src="../../../assets/images/favicon.PNG" width="80" height="30" alt="logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/Home"><span class="navnames">Home </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/Jobs"><span class="navnames">Jobs</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/application-status"><span class="navnames">My Application</span></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="float-right">
+            <a routerLink="/SignUp">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<div>
+    <div class="searchpart">
+        <p class="explore">EXPLORE OPPORTUNITIES</p>
+        <div class="srchsec">
+            
+            <div class="input-group mb-3">
+                <input type="text" class="form-control inputbox" placeholder="Search here"
+                    aria-label="search" id="search-text" #searchVal aria-describedby="search-text" >
+                    
+                    <!-- (keyup)="searchData(searchVal.value)" -->
+                <div class="input-group-append">
+                    <button class="input-group-text inputboxone" id="search-text">Search Jobs</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="embed">
+        <p class="profs">LISTEN TO OUR EXPERIENCED <br> PROFESSIONALS</p>
+
+        <!-- <video height="300" width="400"  controls>
+            <source src="https://www.youtube.com/watch?v=y9aZ-7zvf0Y" type="video/ogg">
+        </video> -->
+
+        <iframe width="525" height="327" src="https://www.youtube.com/embed/y9aZ-7zvf0Y">
+        </iframe>
+    </div>
+    <div class="cardsec">
+        <div class="topcpy">
+            <div class="media">
+                <img class="mr-3" src="../../../assets/images/trophy.jpg" alt="trophy" height="150px" width="150px">
+                <div class="media-body">
+
+                    <p class="awardcontent mt-4">RNTBCI - one of 100 best companies for working women
+                        in India 2022 (BCMI) </p>
+
+                    <a href="#" class="readlink" ReadMoreDirective>Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jobcard">
+        <h3 class="recentopen">Recent Openings</h3>
+
+        <div class="recenthead">
+            <div class="recentcard">
+                <div class="card m-5 py-2 px-5">
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold rolehead">
+                            Test Engineer
+                        </div>
+                        <div class="card-text rolecnt">
+                            <p>Software Technology</p>
+                            <p>Job id: 4829839213892</p>
+                            <p>Posted 2 days ago.</p>
+                            <p>Experience 4 to 5 years.</p>
+                            <a routerLink="#">Read More</a>
+                        </div>
+                        <button class="btn applybtn" appApplyBtn><a href="/apply-job" style="color: white;text-decoration: none">Apply</a></button>
+                    </div>
+                </div>
+                <div class="card m-5 py-2 px-5">
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold rolehead">
+                            Test Engineer
+                        </div>
+                        <div class="card-text rolecnt">
+                            <p>Software Technology</p>
+                            <p>Job id: 4829839213892</p>
+                            <p>Posted 2 days ago.</p>
+                            <p>Experience 4 to 5 years.</p>
+                            <a routerLink="#">Read More</a>
+                        </div>
+                        <button class="btn applybtn" appApplyBtn><a href="/apply-job" style="color: white;text-decoration: none">Apply</a></button>
+                    </div>
+                </div>
+                <div class="card m-5 py-2 px-5">
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold rolehead">
+                            Test Engineer
+                        </div>
+                        <div class="card-text rolecnt">
+                            <p>Vehicle Development</p>
+                            <p>Job id: 4829839213892</p>
+                            <p>Posted 2 days ago.</p>
+                            <p>Experience 4 to 5 years.</p>
+                            <a routerLink="#">Read More</a>
+                        </div>
+                        <button class="btn applybtn" appApplyBtn><a href="/apply-job" style="color: white;text-decoration: none">Apply</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="recentcard">
+                <div class="card m-5 py-2 px-5">
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold rolehead">
+                            Test Engineer
+                        </div>
+                        <div class="card-text rolecnt">
+                            <p>Software Technology</p>
+                            <p>Job id: 4829839213892</p>
+                            <p>Posted 2 days ago.</p>
+                            <p>Experience 4 to 5 years.</p>
+                            <a routerLink="#">Read More</a>
+                        </div>
+                        <button class="btn applybtn" appApplyBtn><a href="/apply-job" style="color: white;text-decoration: none">Apply</a></button>
+                    </div>
+                </div>
+                <div class="card m-5 py-2 px-5">
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold rolehead">
+                            Test Engineer
+                        </div>
+                        <div class="card-text rolecnt">
+                            <p>Production Engineering</p>
+                            <p>Job id: 4829839213892</p>
+                            <p>Posted 2 days ago.</p>
+                            <p>Experience 4 to 5 years.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <button class="btn applybtn" appApplyBtn><a href="/apply-job" style="color: white;text-decoration: none">Apply</a></button>
+                    </div>
+                </div>
+                <div class="card m-5 py-2 px-5">
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold rolehead">
+                            Test Engineer
+                        </div>
+                        <div class="card-text rolecnt">
+                            <p>Software Technology</p>
+                            <p>Job id: 4829839213892</p>
+                            <p>Software Engineering/p>
+                            <p>Experience 4 to 5 years.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <button class="btn applybtn" appApplyBtn><a href="/apply-job" style="color: white;text-decoration: none">Apply</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="alertemail">
+                <p class="alertcnt">KEEP CONNECTED WITH US</p>
+                <div class="alertsec">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" style="height:52px" placeholder="Type your email here" aria-label="email" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <span class="input-group-text applybtn"  id="basic-addon2">Submit</span>
+                    </div>
+                  </div>
+                </div>
+                  
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- <router-outlet></router-outlet> -->

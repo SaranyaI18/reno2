@@ -1,0 +1,30 @@
+.inputbox{
+    height: 52px;
+    margin-left: 56px;
+}
+
+.inputboxone{
+    
+    height: 52px;
+}
+
+.srchsec{
+    width: 40%;
+    margin: 80px auto;
+}
+
+.cardstyle{
+    margin: 0px auto;
+}
+
+.lsthead{
+    font-weight: bold;
+    color: orange;
+    margin: 50px 0px 50px 265px;
+}
+
+.relrec{
+    border: none;
+    background-color: transparent;
+    color: skyblue;
+}

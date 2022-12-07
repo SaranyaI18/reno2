@@ -1,0 +1,82 @@
+.applist{
+    width: 1110px;
+    padding: 50px;
+    border-radius: 3px;
+    margin: 80pxpx auto;
+    box-shadow: 10px solid black;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 4px 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    /* position: fixed; */
+}
+
+.apphead, .statustle{
+    padding: 30px 0px;
+}
+
+.footerpart{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    /* position: fixed; */
+}
+
+.footerimg{
+    margin-top: 100px;
+    position: fixed;
+}
+
+/* .navnames{
+    color: #FF8C00;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+} */
+
+.detstyle{
+    list-style: none;
+    display: flex;
+    /* position: fixed; */
+}
+
+.statuspara{
+    padding: 0px 0px 30px 30px
+    
+}
+
+.dotted{
+    position: relative;
+    /* position: fixed; */
+    
+}
+
+.dotted:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    height: 100%;
+    height: inherit;
+    border-left: 2px dotted lightgrey;
+    /* position: fixed; */
+}
+
+/* .icon > i{
+    margin: 33% auto;
+} */
+
+/* .icon {
+    text-align: center;
+    width: 50px;
+    background: lightgray;
+    border-radius: 50%;
+    border: 2px solid grey;
+} */
+
+.cardcnt{
+    height: 100px;
+    /* position: fixed; */
+}

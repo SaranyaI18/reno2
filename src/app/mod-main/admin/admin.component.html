@@ -1,0 +1,46 @@
+<section>
+    <div class="container">
+        <h1 class="apphead">Applications</h1>
+        <div class="applist">
+            <div class="headeradmin ">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Profile
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item color-black" href="#">Test Engineer</a>
+                    <a class="dropdown-item color-black" href="#">Senior Engineer</a>
+                    <a class="dropdown-item" href="#">Automation Lead</a>
+                </div>
+            </div>
+            <div class="lsthead" style="float: left">sort by: <span class="relrec">experience </span>| <span class="relrec"> skills </span></div>
+        </div>
+
+            <div class="listitems">
+                <ul class="list-unstyled" *ngFor="let each of candidateapplication">
+                    <li class="media my-5">
+                      <img src={{each.src}} width="180" height="180" class="mr-3" alt="image">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1 f-3 font-weight-bold">{{each.name}}</h5>
+                        <div class="itemdet">
+                            <div class="itemdetleft">
+                            <p>Email: <span>{{each.email}}</span></p>
+                            <p>Mobile: <span>{{each.mobile}}</span></p>
+                            <p>Experience: <span>{{each.experience}}</span></p>
+                            </div>
+                            <div class="itemdetright">
+                                <p>Resume: <a href="javascript:void(0)" 
+                                    style="cursor:pointer"
+                                    (click)="downloadPdf('./assets/sample.pdf','your_pdf_file')">{{each.resume}}</a></p>
+                            </div>
+                        </div>
+                        <a href="/accepted-candidate" class="btn lblname float-right mr-3">Reject</a>
+                        <a href="/rejected-candidate" class="btn lblname float-right mr-3">Accept</a>
+                        <a href="/view" class="btn lblname float-right mr-3">View Profile</a>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+</section>

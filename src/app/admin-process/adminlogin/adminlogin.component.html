@@ -1,0 +1,35 @@
+<div class="loginpage">
+    <div class="mainprt">
+
+        <div class="col-7 p-0">
+            <div class="leftbg">
+                <img class="logo" src="../../assets/images/logo1.png" alt="logo">
+                <h1 class="mainhdg">COMS</h1>
+            </div>
+            <!-- <img class="leftimg" src="../../assets/images/ofz.jpg" alt="leftimg">
+             -->
+
+            
+            <!-- <span class="leftbg"></span> -->
+           
+        </div>
+        <div class="col-5">
+            <div class="leftprt">
+                <h1 class="heading">LOGIN</h1>
+                <form class="logindtls" (ngSubmit)="adminsub()" >
+                    <div class="form-group">
+                      <label for="name" class="ipstyle">USERNAME</label>
+                      <input type="text" class="form-control" id="name" [(ngModel)] = "email" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="form-group">
+                      <label for="passwd" class="ipstyle">PASSWORD</label>
+                      <input type="password" class="form-control" id="passwd" [(ngModel)] = "pass"  [ngModelOptions]="{standalone: true}">
+                    </div>
+                    <div class="btndiv">
+                    <button class="btn successbtn">LOGIN</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>

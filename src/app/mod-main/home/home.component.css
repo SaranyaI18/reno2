@@ -1,0 +1,115 @@
+.searchpart{
+    background-color: #FF8C00;
+    width: 100%;
+    height: 350px;
+}
+
+.embed{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.profs{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.readlink{
+    padding: 15px 20px;
+    float: right;
+}
+
+.cardsec{
+    background-color: #F5F5F5;
+    padding: 50px 0px;
+}
+
+.topcpy{
+    width: 75%;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 10px solid black;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 4px 16px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    
+}
+
+.awardcontent{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+.jobcard{
+    margin: 30px 100px;
+}
+
+.recentopen{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0px;
+    color: #FF8C00;
+}
+
+.recentcard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rolehead{
+    font-size: 25px;
+    color: #FF8C00;
+}
+
+.alertemail{
+    margin: 50px 0px;
+}
+
+.alertcnt{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF8C00;
+    margin: 40px 0px;
+}
+
+.applybtn{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+.rolecnt p{
+    font-size: 18px;
+}
+
+.inputbox{
+    height: 52px;
+    margin-left: 56px;
+}
+
+.inputboxone{
+    
+    height: 52px;
+}
+
+.srchsec{
+    width: 40%;
+}
+
+.explore{
+    padding: 80px 50px 5px 50px;
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+}
+
+.alertsec{
+    width: 40%;
+    margin: 60px auto;
+}
