@@ -1,45 +1,80 @@
-<!-- <div class="container">
-    <div class="listitems">
-        <ul class="list-unstyled" class="btn lblname float-right mr-3">>
-            <li class="media my-5">
-              <img src={{each.src}} width="180" height="180" class="mr-3" alt="image">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1 f-3 font-weight-bold">{{each.name}}</h5>
-                <div class="itemdet">
-                    <div class="itemdetleft">
-                    <p>Email: <span>{{each.email}}</span></p>
-                    <p>Mobile: <span>{{each.mobile}}</span></p>
-                    <p>Experience: <span>{{each.experience}}</span></p>
-                    </div>
-                    <div class="itemdetright">
-                        <p>Resume: <a href="javascript:void(0)" 
-                            style="cursor:pointer"
-                            (click)="downloadPdf('./assets/sample.pdf','your_pdf_file')">{{each.resume}}</a></p>
-                    </div>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                        Logical Assessment
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                      Technical Interview
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                      HR Interview
-                    </label>
-                  </div>
-                <button class="btn lblname float-right mr-3">Reject</button>
-                <button class="btn lblname float-right mr-3">Accept</button>
-                <button class="btn lblname float-right mr-3">View Profile</button>
-              </div>
-            </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+      <a class="navbar-brand" routerLink="https://rntbci.in">
+          <img src="../../../assets/images/favicon.PNG" width="80" height="30" alt="logo">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" routerLink="/admin"><span class="navnames">Candidate List</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/upload-job"><span class="navnames">Upload Job</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/accepted-candidate"><span class="navnames">Accepted Candidate</span></a>
+              </li>
           </ul>
-    </div>
-</div> -->
+
+      </div>
+      <div class="float-right">
+          <a routerLink="#">
+              <i class="bi bi-person-circle"></i>
+          </a>
+      </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="listitems">
+    <ul class="list-unstyled">
+      <li class="media my-5">
+        <img src="../../../assets/images/SARANYA.jpeg" width="180" height="180" class="mr-3" alt="image">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1 f-3 font-weight-bold name">name</h5>
+          <div class="itemdet">
+            <div class="itemdetleft">
+              <p class="font-weight-bold">Email: <span class="detspan">email</span></p>
+              <p class="font-weight-bold">Mobile: <span class="detspan">234243244</span></p>
+              <p class="font-weight-bold">Experience: <span class="detspan">experience</span></p>
+            </div>
+            <div class="itemdetright">
+              <p>Resume: <a routerLink="javascript:void(0)" style="cursor:pointer" class="detspan"
+                  (click)="downloadPdf('./assets/sample.pdf','your_pdf_file')">resume.pdf</a></p>
+            </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label checklabel" for="defaultCheck1">
+              Logical Assessment
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label checklabel" for="defaultCheck1">
+              Technical Interview
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label checklabel" for="defaultCheck1">
+              HR Interview
+            </label>
+          </div>
+          <div>
+            <button class="btn applybtn">Update</button>
+          </div>
+        </div>
+
+      </li>
+    </ul>
+  </div>
+</div>
+<footer class="footersec mt-2">
+  <div class="footerpart">
+      <a routerLink="https://rntbci.in">
+          <img class="footerimg" src="../../../assets/images/logo1.png" width="350px" height="100px" alt="logo">
+          <p class="cpyname">2022 @ Renault Nissan Technology & Business Centre India (RNTBCI)</p>
+      </a>
+  </div>
+</footer>

@@ -25,40 +25,15 @@
         </div>
     </div>
 </nav>
-
-
-
-
-<div>
-    <div class="srchsec">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control inputbox" placeholder="Search here" aria-label="search"
-                aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <span class="input-group-text inputboxone" id="basic-addon2">Search Jobs</span>
-            </div>
-        </div>
-    </div>
-    <h1 class="lsthead">LATEST JOBS</h1>
-    <p class="lsthead">sort by: <button class="relrec">relevant </button>|<button class="relrec"> recent</button></p>
-
-    <div class="joblist">
-        <div class="col-8 cardstyle">
-            <div class="outercard">
-                <div class="card">
-                    <div class="card-body" *ngFor="let role of jobroles">
-                        <h5 class="card-title">{{role.rolename}}</h5>
-                        <p class="card-text">{{role.description}}</p>
-                        <!-- <p>Location: <span>Chennai</span></p> -->
-                        <p class="expstyle">Experience <span>{{role.experience}}</span></p><br>
-                        <a routerLink="/apply-job" class="btn btn-primary">Apply</a>
-                    </div>
-                </div>
-            </div>
+<div class="container">
+    <div class="card autoresumesec">
+        <div class="card-body">
+            <p><a routerLink="#" class="autofill">Autofill with Resume</a></p>
+                <p><span class="orstyle">OR</span></p>
+            <p><a routerLink="/apply-job" class="autofill">Manually fill the Application</a></p>
         </div>
     </div>
 </div>
-
 <footer class="footersec mt-2">
     <div class="footerpart">
         <a routerLink="https://rntbci.in">

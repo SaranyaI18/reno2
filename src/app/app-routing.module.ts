@@ -9,7 +9,7 @@ import { UserstatusComponent } from './mod-main/userstatus/userstatus.component'
 import { SignupComponent } from '../app/mod-sign/signup/signup.component';
 import { JoblistComponent } from './mod-main/joblist/joblist.component';
 import { AcceptedCandiComponent } from './admin-process/accepted-candi/accepted-candi.component';
-import { RejectedCandComponent } from './admin-process/rejected-cand/rejected-cand.component';
+
 import { AdminloginComponent } from './admin-process/adminlogin/adminlogin.component';
 
 const routes: Routes = [
@@ -22,7 +22,7 @@ const routes: Routes = [
   {path:'application-status', component:UserstatusComponent},
   {path: 'Jobs', component:JoblistComponent},
   {path: 'accepted-candidate', component:AcceptedCandiComponent},
-  {path: 'rejected-candidate', component:RejectedCandComponent},
+  
   {path: 'admin', component:AdminloginComponent}
 ];
 

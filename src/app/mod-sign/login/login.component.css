@@ -9,9 +9,9 @@
 
 .mainhdg{
     color:#FF8C00;
-    margin-left: 235px;
+    margin-left: 152px;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 77px;
     margin-top: 50px;
 }
 
@@ -35,6 +35,21 @@
     text-align: center;
     color: 	#FF8C00;
     margin-top: 130px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.registerstyle{
+    text-align: center;
+    color: #FF8C00;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.reg{
+    color: #FF8C00;
+    font-weight: bold;
+
 }
 
 .ipstyle{

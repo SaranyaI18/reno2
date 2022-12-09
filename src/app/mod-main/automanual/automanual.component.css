@@ -1,0 +1,40 @@
+.autoresumesec{
+    margin: 200px auto;
+    text-align: center;
+}
+
+.autofill{
+    color: #FF8C00;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.autofill:hover{
+    color: #007bff;
+}
+
+.orstyle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navnames{
+    color: #FF8C00;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+} 
+
+.footerpart{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.footerimg{
+    margin-top: 100px;
+}

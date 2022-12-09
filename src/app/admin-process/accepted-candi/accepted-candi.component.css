@@ -1,0 +1,55 @@
+.listitems{
+    width: 900px;
+    padding: 100px 0px 50px 0px;
+    margin: 0px auto;
+}
+
+.itemdet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checklabel{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #FF8C00;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+.detspan, .name{
+    color: #FF8C00;
+}
+
+.applybtn{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+.cpyname{
+    text-decoration: none;
+    color: white;
+}
+
+.footerpart{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.footerimg{
+    margin-top: 100px;
+}
+
+.navnames{
+    color: #FF8C00;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}

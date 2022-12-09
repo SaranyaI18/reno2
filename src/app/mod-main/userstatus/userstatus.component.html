@@ -33,29 +33,15 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title statustle">Senior Java Developer</h5>
-
-                        <p>
-                           
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                              Button with data-target
-                            </button>
-                          </p>
-                          <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            </div>
-                          </div>
-
-                        <button class="btn btn-primary" type="button" data-toggle="collapse"
-                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" (click)="data()">
+                        <button class="btn showdetails" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" (click)=toggleDisplayDiv()>
                             Show Details
                         </button>
                         <!-- <div class="collapse" id="collapseExample">
                             <div class="card card-body cardcnt"> -->
-                                <!-- <div> -->
-                                    <div>
-                                    <ul *ngIf="flag">
-                                        <div class="dotted" >
+                                <div [hidden]="isShowDiv">
+                                    <ul>
+                                        <div class="dotted">
                                             <li class="detstyle icon">
                                                 <i class="bi bi-check-circle-fill"></i>
                                                 <p class="statuspara text-black">Job applied successfully</p>
@@ -100,8 +86,6 @@
                                         </div>
                                     </ul>
                                 </div>
-
-                                <!-- </div> -->
                             <!-- </div>
                         </div> -->
                     </div>
@@ -110,3 +94,11 @@
         </div>
     </div>
 </section>
+<footer class="footersec mt-2">
+    <div class="footerpart">
+        <a routerLink="https://rntbci.in">
+            <img class="footerimg" src="../../../assets/images/logo1.png" width="350px" height="100px" alt="logo">
+            <p class="cpyname">2022 @ Renault Nissan Technology & Business Centre India (RNTBCI)</p>
+        </a>
+    </div>
+</footer>

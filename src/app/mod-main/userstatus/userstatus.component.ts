@@ -7,18 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserstatusComponent implements OnInit {
   isCollapsed = false;
-  flag = true;
+
+  isShowDiv = true;  
+
+     
+
+  toggleDisplayDiv() {  
+
+    this.isShowDiv = !this.isShowDiv;  
+
+  }  
   constructor() { }
 
   ngOnInit(): void {
-  }
-  data(){
-    if(this.flag){
-      this.flag = false;
-    }
-    else{
-      this.flag = true;
-    }
   }
 
 }

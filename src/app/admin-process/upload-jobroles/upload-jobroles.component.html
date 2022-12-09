@@ -1,5 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="https://rntbci.in">
+            <img src="../../../assets/images/favicon.PNG" width="80" height="30" alt="logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/admin"><span class="navnames">Candidate List</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/upload-job"><span class="navnames">Upload Job</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/accepted-candidate"><span class="navnames">Accepted Candidate</span></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="float-right">
+            <a routerLink="#">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </div>
+    </div>
+</nav>
 <div class="container">
     <div class="upload">
-        
+        <button class="btn applybtn">UPLOAD</button>
     </div>
 </div>
+<footer class="footersec mt-2">
+    <div class="footerpart">
+        <a routerLink="https://rntbci.in">
+            <img class="footerimg" src="../../../assets/images/logo1.png" width="350px" height="100px" alt="logo">
+            <p class="cpyname">2022 @ Renault Nissan Technology & Business Centre India (RNTBCI)</p>
+        </a>
+    </div>
+</footer>

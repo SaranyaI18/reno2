@@ -7,7 +7,6 @@
     box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 4px 16px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    /* position: fixed; */
 }
 
 .apphead, .statustle{
@@ -19,35 +18,37 @@
     height: 300px;
     text-align: center;
     width: 100%;
-    /* position: fixed; */
 }
 
 .footerimg{
     margin-top: 100px;
-    position: fixed;
 }
 
-/* .navnames{
+.navnames{
     color: #FF8C00;
     font-size: 17px;
     font-family:Arial, Helvetica, sans-serif;
     margin-right: 10px;
-} */
+}
+
+.showdetails{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
 
 .detstyle{
     list-style: none;
     display: flex;
-    /* position: fixed; */
 }
 
 .statuspara{
     padding: 0px 0px 30px 30px
-    
 }
 
 .dotted{
     position: relative;
-    /* position: fixed; */
     
 }
 
@@ -61,7 +62,6 @@
     height: 100%;
     height: inherit;
     border-left: 2px dotted lightgrey;
-    /* position: fixed; */
 }
 
 /* .icon > i{
@@ -78,5 +78,4 @@
 
 .cardcnt{
     height: 100px;
-    /* position: fixed; */
 }
