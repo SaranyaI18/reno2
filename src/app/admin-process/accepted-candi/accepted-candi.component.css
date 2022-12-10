@@ -43,6 +43,12 @@
     width: 100%;
 }
 
+.cpyname{
+    text-decoration: none;
+    color: white;
+    
+}
+
 .footerimg{
     margin-top: 100px;
 }

@@ -15,19 +15,18 @@ export class SignupComponent implements OnInit {
   signupuser:SignupClass = new SignupClass();
 
   constructor(private signupservice: SignupServiceService, private router: Router) { }
-  // private signupservice: SignupServiceService, private router: Router
 
   ngOnInit(): void {
   }
 
   saveUser(){
     this.signupservice.newsignupuser(this.signupuser).subscribe(data=>{
-      return this.gotoEmployeeList();
+      return this.goToHome();
     })
     // error=>console.log(error));
   }
 
-  gotoEmployeeList(){
+  goToHome(){
     this.router.navigate(['Home']);
   }
 

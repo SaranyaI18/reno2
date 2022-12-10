@@ -3,7 +3,7 @@
         <div class="signuppart">
             <div class="col-6 p-0">
                 <div class="conimgleft">
-
+                    <span class="logbtn">Already a member! <a routerLink="/Login" style="color: #FF8C00; font-weight: bold;">LOGIN</a></span>
                 </div>
             </div>
             <div class="col-6">
@@ -44,22 +44,22 @@
                         </div>
                         <div class="form-group">
                             <label class="lblname">COUNTRY</label>
-                            <select class="form-control lblname" required  [(ngModel)]="signupuser.contry" [ngModelOptions]="{standalone: true}">
-                                <option class="lblname">ANDHRA PRADESH</option>
-                                <option class="lblname">ASSAM</option>
-                                <option class="lblname">BIHAR</option>
-                                <option class="lblname">GOA</option>
-                                <option class="lblname">HARYANA</option>
-                                <option class="lblname">JHARKHAND</option>
-                                <option class="lblname">KERALA</option>
-                                <option class="lblname">KARNATAKA</option>
-                                <option class="lblname">PUNJAB</option>
-                                <option class="lblname">RAJASTHAN</option>
-                                <option class="lblname">SIKKIM</option>
-                                <option class="lblname">TAMIL NADU</option>
-                                <option class="lblname">UTHAR PRADESH</option>
-                                <option class="lblname">UTTARKHAND</option>
-                                <option class="lblname">WEST BENGAL</option>
+                            <select class="form-control" required  [(ngModel)]="signupuser.contry" [ngModelOptions]="{standalone: true}">
+                                <option>ANDHRA PRADESH</option>
+                                <option>ASSAM</option>
+                                <option>BIHAR</option>
+                                <option>GOA</option>
+                                <option>HARYANA</option>
+                                <option>JHARKHAND</option>
+                                <option>KERALA</option>
+                                <option>KARNATAKA</option>
+                                <option>PUNJAB</option>
+                                <option>RAJASTHAN</option>
+                                <option>SIKKIM</option>
+                                <option>TAMIL NADU</option>
+                                <option>UTHAR PRADESH</option>
+                                <option>UTTARKHAND</option>
+                                <option>WEST BENGAL</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -72,16 +72,13 @@
                         </div>  
                         <div class="form-group row">
                             <div class="col-sm-10 btndiv">
-                              <a routerLink="/Home">
-                              <button class="btn signupbtn" type = "submit"  >SIGN UP</button>
-                            </a>  
+                            
+                              <button class="btn signupbtn" type = "submit">SIGN UP</button>
+                           
                             </div>
                           </div>
 
                     </form>
-                    <div>
-                        <p style="color:#FF8C00; text-align: center;">Already a member! <a href="/Login" style="color: #FF8C00; font-weight: bold;">LOGIN</a></p>
-                    </div>
                 </div>
             </div>
         </div>

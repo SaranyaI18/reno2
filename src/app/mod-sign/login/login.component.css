@@ -9,9 +9,9 @@
 
 .mainhdg{
     color:#FF8C00;
-    margin-left: 152px;
+    margin-left: 142px;
     font-weight: bold;
-    font-size: 77px;
+    font-size: 80px;
     margin-top: 50px;
 }
 
@@ -21,7 +21,7 @@
 } */
 
 .leftprt{
-    margin: 166px 0px;
+    margin: 145.5px 0px;
     
 }
 
@@ -39,26 +39,13 @@
     font-size: 50px;
 }
 
-.registerstyle{
-    text-align: center;
-    color: #FF8C00;
-    padding-top: 20px;
-    margin: 0px;
-}
-
-.reg{
-    color: #FF8C00;
-    font-weight: bold;
-
-}
-
 .ipstyle{
     color: 	#FF8C00;
     font-weight: bold;
 }
 
 .logindtls{
-    margin-top: 100px;
+    margin-top: 85px;
 }
 
 .successbtn{
@@ -80,3 +67,15 @@
     padding-top: 20px;
 }
 
+.registerstyle{
+    text-align: center;
+    color: #FF8C00;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.reg{
+    color: #FF8C00;
+    font-weight: bold;
+
+}
