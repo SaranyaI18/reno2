@@ -16,6 +16,7 @@ import { UserresumeupdateServiceService } from './mod-main/userresumeupdate-serv
 // import { AdminProcessModule } from './admin-process/admin-process.module';
 import { HomeServiceService } from './mod-main/home-service.service';
 import { AdminloginComponent } from './admin-process/adminlogin/adminlogin.component';
+import { AdminDetailsComponent } from './admin-process/admin-details/admin-details.component';
 // import { SignupComponent } from './mod-sign/signup/signup.component';
 
 
@@ -24,6 +25,7 @@ import { AdminloginComponent } from './admin-process/adminlogin/adminlogin.compo
   declarations: [
     AppComponent,
     AdminloginComponent,
+    AdminDetailsComponent,
     // SignupComponent
    
     

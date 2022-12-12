@@ -7,12 +7,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomeServiceService {
 
-  private URL="http://localhost:8086/home";
+  private basicURL="http://localhost:8086/home";
   constructor(private httpClient:HttpClient) { }
 
   searchData(str:string):Observable<any>{
 
-    return this.httpClient.get<any>(`${this.URL}/search/${str}`);
+    return this.httpClient.get<any>(`${this.basicURL}/search/${str}`);
 
   }
 }
